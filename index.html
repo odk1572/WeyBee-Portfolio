@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Kariya | Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="Home">
+        <div class="container">
+            <h1 id="greeting">Hello 👋, I am Om Kariya</h1>
+            <h3>A passionate Full Stack Developer, with strong expertise in MERN Stack development and DSA</h3>
+            <ul class="links">
+                <li><a href="https://github.com/odk1572" target="_blank">GitHub</a></li>
+                <li><a href="https://leetcode.com/u/ErrorEater18" target="_blank">LeetCode</a></li>
+                <li><a href="https://www.linkedin.com/in/om-kariya-b1815628a" target="_blank">Linkedin</a></li>  
+            </ul>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="section" id="About">
+        <h2>About Me</h2>
+        <p>Passionate about building scalable and high-performance web applications using the MERN Stack.</p>
+        <p>Currently pursuing Computer Engineering at VVP Engineering College, 6th semester, with a CPI of 8.96.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section" id="Skills">
+        <h2>My Key Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+            <li>Core Java</li>
+            <li>DSA</li>
+            <li>DBMS</li>
+            <li>OS</li>
+            <li>OOP</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Git and GitHub</li>
+        </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section" id="Projects">
+        <h2>My Projects</h2>
+        <p>Here are 2 self-made projects I built from scratch:</p>
+        <ol class="projects-list">
+            <li>
+                <h3>LostLink – A Lost and Found Items Portal</h3>
+                <p>A portal where users can upload their lost items and claim found items. Admins verify claims using unique identity proofs.</p>
+                <div class="project-links">
+                    <a href="https://github.com/odk1572/LostLink-" target="_blank">GitHub – User Panel</a> |
+                    <a href="https://lostlink.onrender.com" target="_blank">Live Demo – User Panel</a><br>
+                    <a href="https://github.com/odk1572/LostLink-AdminPanel" target="_blank">GitHub – Admin Panel</a> |
+                    <a href="https://lostlink-adminpanel.onrender.com" target="_blank">Live Demo – Admin Panel</a>
+                </div>
+            </li>
+            <li>
+                <h3>PlaySync – A Video Streaming Platform</h3>
+                <p>A video platform where users can upload, edit, delete videos, and subscribe to channels — just like YouTube.</p>
+                <div class="project-links">
+                    <a href="https://github.com/odk1572/LostLink-" target="_blank">GitHub</a> |
+                    <a href="https://playsync-1-7xxc.onrender.com/" target="_blank">Live Demo</a>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section" id="Contact">
+        <h2>Contact Me</h2>
+        <ul class="contact-links">
+            <li><a href="mailto:odk1572@gmail.com">Via Gmail</a></li>
+            <li><a href="https://www.linkedin.com/in/om-kariya-b1815628a/" target="_blank">LinkedIn</a></li>
+        </ul>
+        <form id="contact-form">
+            <input type="text" name="name" id="name" placeholder="Your Name" required />
+            <input type="email" name="email" id="email" placeholder="Your Email" required />
+            <input type="text" name="subject" id="subject" placeholder="Subject" required />
+            <button type="submit" id="submitBtn">Send Message</button>
+            <p id="form-status"></p>
+        </form>
+    </div>
+
+    <!-- JS at bottom for better load -->
+    <script src="index.js"></script>
+</body>
+</html>
