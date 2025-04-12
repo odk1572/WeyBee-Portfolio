@@ -1,286 +1,109 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om Kariya | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
-<body class="dark-mode">
-    <!-- Theme Toggle -->
-    <div class="theme-toggle">
-        <button id="theme-toggle-btn">
-            <i class="fas fa-sun"></i>
-            <i class="fas fa-moon"></i>
-        </button>
-    </div>
+<body>
 
     <!-- Navigation -->
     <nav>
-        <div class="nav-container">
-            <div class="logo">
-                <a href="#Home">OK</a>
-            </div>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#Home" class="nav-link">Home</a></li>
-                <li><a href="#About" class="nav-link">About</a></li>
-                <li><a href="#Skills" class="nav-link">Skills</a></li>
-                <li><a href="#Projects" class="nav-link">Projects</a></li>
-                <li><a href="#Contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
+        <ul class="nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
     </nav>
 
     <!-- Home Section -->
-    <header id="Home" class="section-container">
-        <div class="container reveal-item">
-            <h1 id="greeting">Hello 👋</h1>
-            <div class="typing-container">
-                <h2>I am <span class="typing">Om Kariya</span></h2>
-            </div>
-            <h3 class="subtitle">A passionate Full Stack Developer, with strong expertise in MERN Stack development and DSA</h3>
-            <ul class="social-links">
-                <li class="social-item"><a href="https://github.com/odk1572" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-                <li class="social-item"><a href="https://leetcode.com/u/ErrorEater18" target="_blank"><i class="fas fa-code"></i> LeetCode</a></li>
-                <li class="social-item"><a href="https://www.linkedin.com/in/om-kariya-b1815628a" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>  
+    <header id="Home">
+        <div class="container">
+            <h1 id="greeting">Hello 👋, I am Om Kariya</h1>
+            <h3>A passionate Full Stack Developer, with strong expertise in MERN Stack development and DSA</h3>
+            <ul class="links">
+                <li><a href="https://github.com/odk1572" target="_blank">GitHub</a></li>
+                <li><a href="https://leetcode.com/u/ErrorEater18" target="_blank">LeetCode</a></li>
+                <li><a href="https://www.linkedin.com/in/om-kariya-b1815628a" target="_blank">Linkedin</a></li>  
             </ul>
-            <div class="scroll-down">
-                <a href="#About">
-                    <div class="mouse">
-                        <span></span>
-                    </div>
-                    <div class="arrow-down">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </a>
-            </div>
         </div>
     </header>
 
     <!-- About Section -->
-    <section class="section-container" id="About">
-        <div class="section-title reveal-item">
-            <h2>About Me</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="about-content reveal-item">
-            <div class="about-image">
-                <div class="image-container">
-                    <img src="https://via.placeholder.com/300" alt="Om Kariya" class="profile-img">
-                </div>
-            </div>
-            <div class="about-text">
-                <p>Passionate about building scalable and high-performance web applications using the MERN Stack.</p>
-                <p>Currently pursuing Computer Engineering at VVP Engineering College, 6th semester, with a CPI of 8.96.</p>
-                <p>I enjoy solving complex problems and creating elegant solutions that provide exceptional user experiences.</p>
-                <div class="about-details">
-                    <div class="detail-item">
-                        <span class="detail-icon"><i class="fas fa-graduation-cap"></i></span>
-                        <span class="detail-text">Computer Engineering</span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-icon"><i class="fas fa-code"></i></span>
-                        <span class="detail-text">Full Stack Developer</span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-icon"><i class="fas fa-map-marker-alt"></i></span>
-                        <span class="detail-text">India</span>
-                    </div>
-                </div>
-                <a href="#Contact" class="btn primary-btn">Contact Me</a>
-            </div>
-        </div>
-    </section>
+    <div class="section" id="About">
+        <h2>About Me</h2>
+        <p>Passionate about building scalable and high-performance web applications using the MERN Stack.</p>
+        <p>Currently pursuing Computer Engineering at VVP Engineering College, 6th semester, with a CPI of 8.96.</p>
+    </div>
 
     <!-- Skills Section -->
-    <section class="section-container" id="Skills">
-        <div class="section-title reveal-item">
-            <h2>My Key Skills</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="skills-container">
-            <div class="skill-category reveal-item">
-                <h3>Frontend</h3>
-                <ul class="skills-list">
-                    <li class="skill-item"><i class="fab fa-html5"></i> HTML</li>
-                    <li class="skill-item"><i class="fab fa-css3-alt"></i> CSS</li>
-                    <li class="skill-item"><i class="fab fa-js"></i> JavaScript</li>
-                    <li class="skill-item"><i class="fab fa-react"></i> React.js</li>
-                    <li class="skill-item"><i class="fab fa-bootstrap"></i> Tailwind CSS</li>
-                </ul>
-            </div>
-            <div class="skill-category reveal-item">
-                <h3>Backend</h3>
-                <ul class="skills-list">
-                    <li class="skill-item"><i class="fab fa-node-js"></i> Node.js</li>
-                    <li class="skill-item"><i class="fab fa-node-js"></i> Express.js</li>
-                    <li class="skill-item"><i class="fas fa-database"></i> MongoDB</li>
-                </ul>
-            </div>
-            <div class="skill-category reveal-item">
-                <h3>Other Skills</h3>
-                <ul class="skills-list">
-                    <li class="skill-item"><i class="fab fa-java"></i> Core Java</li>
-                    <li class="skill-item"><i class="fas fa-code-branch"></i> DSA</li>
-                    <li class="skill-item"><i class="fas fa-database"></i> DBMS</li>
-                    <li class="skill-item"><i class="fas fa-laptop-code"></i> OOP</li>
-                    <li class="skill-item"><i class="fab fa-git-alt"></i> Git & GitHub</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    <div class="section" id="Skills">
+        <h2>My Key Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+            <li>Core Java</li>
+            <li>DSA</li>
+            <li>DBMS</li>
+            <li>OS</li>
+            <li>OOP</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Git and GitHub</li>
+        </ul>
+    </div>
 
     <!-- Projects Section -->
-    <section class="section-container" id="Projects">
-        <div class="section-title reveal-item">
-            <h2>My Projects</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="projects-container">
-            <div class="project-card reveal-item">
-                <div class="project-img">
-                    <img src="https://via.placeholder.com/350x200" alt="LostLink Project">
+    <div class="section" id="Projects">
+        <h2>My Projects</h2>
+        <p>Here are 2 self-made projects I built from scratch:</p>
+        <ol class="projects-list">
+            <li>
+                <h3>LostLink – A Lost and Found Items Portal</h3>
+                <p>A portal where users can upload their lost items and claim found items. Admins verify claims using unique identity proofs.</p>
+                <div class="project-links">
+                    <a href="https://github.com/odk1572/LostLink-" target="_blank">GitHub – User Panel</a> |
+                    <a href="https://lostlink.onrender.com" target="_blank">Live Demo – User Panel</a><br>
+                    <a href="https://github.com/odk1572/LostLink-AdminPanel" target="_blank">GitHub – Admin Panel</a> |
+                    <a href="https://lostlink-adminpanel.onrender.com" target="_blank">Live Demo – Admin Panel</a>
                 </div>
-                <div class="project-content">
-                    <h3>LostLink – A Lost and Found Items Portal</h3>
-                    <p>A portal where users can upload their lost items and claim found items. Admins verify claims using unique identity proofs.</p>
-                    <div class="tech-stack">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>Express</span>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/odk1572/LostLink-" target="_blank" class="btn project-btn">
-                            <i class="fab fa-github"></i> User Panel
-                        </a>
-                        <a href="https://lostlink.onrender.com" target="_blank" class="btn project-btn">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/odk1572/LostLink-AdminPanel" target="_blank" class="btn project-btn">
-                            <i class="fab fa-github"></i> Admin Panel
-                        </a>
-                        <a href="https://lostlink-adminpanel.onrender.com" target="_blank" class="btn project-btn">
-                            <i class="fas fa-external-link-alt"></i> Admin Demo
-                        </a>
-                    </div>
+            </li>
+            <li>
+                <h3>PlaySync – A Video Streaming Platform</h3>
+                <p>A video platform where users can upload, edit, delete videos, and subscribe to channels — just like YouTube.</p>
+                <div class="project-links">
+                    <a href="https://github.com/odk1572/LostLink-" target="_blank">GitHub</a> |
+                    <a href="https://playsync-1-7xxc.onrender.com/" target="_blank">Live Demo</a>
                 </div>
-            </div>
-            
-            <div class="project-card reveal-item">
-                <div class="project-img">
-                    <img src="https://via.placeholder.com/350x200" alt="PlaySync Project">
-                </div>
-                <div class="project-content">
-                    <h3>PlaySync – A Video Streaming Platform</h3>
-                    <p>A video platform where users can upload, edit, delete videos, and subscribe to channels — just like YouTube.</p>
-                    <div class="tech-stack">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>Express</span>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/odk1572/LostLink-" target="_blank" class="btn project-btn">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                        <a href="https://playsync-1-7xxc.onrender.com/" target="_blank" class="btn project-btn">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            </li>
+        </ol>
+    </div>
 
     <!-- Contact Section -->
-    <section class="section-container" id="Contact">
-        <div class="section-title reveal-item">
-            <h2>Contact Me</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="contact-container">
-            <div class="contact-info reveal-item">
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="contact-text">
-                        <h3>Email</h3>
-                        <p><a href="mailto:odk1572@gmail.com">odk1572@gmail.com</a></p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fab fa-linkedin"></i>
-                    </div>
-                    <div class="contact-text">
-                        <h3>LinkedIn</h3>
-                        <p><a href="https://www.linkedin.com/in/om-kariya-b1815628a/" target="_blank">Om Kariya</a></p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fab fa-github"></i>
-                    </div>
-                    <div class="contact-text">
-                        <h3>GitHub</h3>
-                        <p><a href="https://github.com/odk1572" target="_blank">odk1572</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-form reveal-item">
-                <form id="contact-form">
-                    <div class="form-group">
-                        <input type="text" name="name" id="name" placeholder="Your Name" required />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" id="email" placeholder="Your Email" required />
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="subject" id="subject" placeholder="Subject" required />
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" id="submitBtn" class="btn submit-btn">
-                        <span>Send Message</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                    <p id="form-status"></p>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Om Kariya. All Rights Reserved.</p>
-            <div class="footer-social">
-                <a href="https://github.com/odk1572" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/om-kariya-b1815628a" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:odk1572@gmail.com"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to top button -->
-    <div class="back-to-top" id="back-to-top">
-        <i class="fas fa-arrow-up"></i>
+    <div class="section" id="Contact">
+        <h2>Contact Me</h2>
+        <ul class="contact-links">
+            <li><a href="mailto:odk1572@gmail.com">Via Gmail</a></li>
+            <li><a href="https://www.linkedin.com/in/om-kariya-b1815628a/" target="_blank">LinkedIn</a></li>
+        </ul>
+        <form id="contact-form">
+            <input type="text" name="name" id="name" placeholder="Your Name" required />
+            <input type="email" name="email" id="email" placeholder="Your Email" required />
+            <input type="text" name="subject" id="subject" placeholder="Subject" required />
+            <button type="submit" id="submitBtn">Send Message</button>
+            <p id="form-status"></p>
+        </form>
     </div>
 
     <!-- JS at bottom for better load -->
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
+//https://wey-bee-portfolio.vercel.app/
